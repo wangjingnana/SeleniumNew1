@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+
+<project name ="javacTest" default="run" basedir=".">
+
+	 <!-- 定义全局变量 -->
+	<property name="dest" value="./build/classes" />
+	<property name="testng.output.dir" value="./test-output"/>
+	
+	<property name= "lib.dir" value= "lib" />
+	
+
+	<!-- 定义类路径 -->
+	<path id="classes">
+	     <fileset dir= "C:\xuexi\dasanshang\Selenium\ruanj\testng-xslt-1.1.2\lib" includes= "*.jar" />
+		 <pathelement location="${dest}"/>
+	</path>
+
+  <taskdef resource="testngtasks" classpath="lib/testng-6.9.9.jar"/>  
+	
+
+<target name= "transform" >
+<xslt in= "C:/xuexi/dasanshang/Selenium/eclipselizi/chanzhi/test-output/testng-results.xml" 
+	  style= "C:\\xuexi\\dasanshang\\Selenium\\eclipselizi\\chanzhi\\test-output\\testng-results.xsl"
+      out= "C:\\xuexi\\dasanshang\\Selenium\\eclipselizi\\chanzhi\\test-output\\index1.html" >
+<!-- you need to specify the directory here again -->
+<param name= "testNgXslt.outputDir" expression= "C:\\xuexi\\dasanshang\\Selenium\\eclipselizi\\chanzhi\\test-output" />
+<classpath refid= "test.classpath" />
+</xslt>
+</target>
+
+	
+	 <target name="run"  depends ="compile">
+	 	<testng outputdir="${testng.report.dir}" classpathref="classes" >
+	 	   <xmlfileset dir="." includes="./textng.xml"/>
+	 	</testng>	
+	 </target>
+	 
+	<target name="clean">
+        <delete dir="${basedir}/build"/>
+    </target>
+	
+    <target name="compile"  depends ="clean">
+        <mkdir dir ="${dest}"/>
+        <javac srcdir ="${basedir}/src" destdir ="${dest}" includeantruntime="on"/>
+    </target>
+	
+</project>

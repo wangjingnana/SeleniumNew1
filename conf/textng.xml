@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="s1" verbose="1" >
+<listeners>
+<listener class-name="utils.listener"></listener>
+</listeners>
+		<test name="shezhi_zhandian"  preserve-order="true">
+   			<classes>
+       			 <class name="kuangjia_houtai_test.shezhi_zhandianTest" /> 
+       			 
+       			 <class name="kuangjia_qiantai_test.bianji_sjqdTest" />
+       			 <class name="kuangjia_qiantai_test.liuyanTest" />
+       			 <class name="kuangjia_qiantai_test.luntanTest" />
+       			 
+       			 <class name="yuansheng_houtai_action.chanpin_tianjiaTest" />
+       			 <class name="yuansheng_houtai_action.chanpinTest" />
+       			 <class name="yuansheng_houtai_action.dingdan_jifenTest" />
+       			 <class name="yuansheng_houtai_action.dingdan_shangpinTest" />
+       			 <class name="yuansheng_houtai_action.shezhi_kuaidiTest" />
+       			 <class name="yuansheng_houtai_action.shezhi_shezhiTest" />
+       			 <class name="yuansheng_houtai_action.tuiguang_guanjianciTest" />
+       	
+    		</classes>
+ 		</test>
+
+</suite>

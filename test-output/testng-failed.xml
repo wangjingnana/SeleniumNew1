@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [s1]">
+  <listeners>
+    <listener class-name="utils.listener"/>
+  </listeners>
+  <test name="shezhi_zhandian(failed)">
+    <classes>
+      <class name="kuangjia_houtai_test.shezhi_zhandianTest">
+        <methods>
+          <include name="testxiugai"/>
+          <include name="setup"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- kuangjia_houtai_test.shezhi_zhandianTest -->
+      <class name="yuansheng_houtai_action.shezhi_kuaidiTest">
+        <methods>
+          <include name="kuaidi"/>
+          <include name="setupBrowser"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- yuansheng_houtai_action.shezhi_kuaidiTest -->
+      <class name="yuansheng_houtai_action.shezhi_shezhiTest">
+        <methods>
+          <include name="setupBrowser"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- yuansheng_houtai_action.shezhi_shezhiTest -->
+      <class name="yuansheng_houtai_action.dingdan_shangpinTest">
+        <methods>
+          <include name="setupBrowser"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- yuansheng_houtai_action.dingdan_shangpinTest -->
+      <class name="yuansheng_houtai_action.dingdan_jifenTest">
+        <methods>
+          <include name="setupBrowser"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- yuansheng_houtai_action.dingdan_jifenTest -->
+      <class name="yuansheng_houtai_action.chanpin_tianjiaTest">
+        <methods>
+          <include name="tianjia"/>
+          <include name="setupBrowser"/>
+          <include name="quit"/>
+          <include name="login1"/>
+        </methods>
+      </class> <!-- yuansheng_houtai_action.chanpin_tianjiaTest -->
+      <class name="kuangjia_qiantai_test.bianji_sjqdTest">
+        <methods>
+          <include name="setup"/>
+          <include name="testhuitie_bt"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- kuangjia_qiantai_test.bianji_sjqdTest -->
+      <class name="kuangjia_qiantai_test.luntanTest">
+        <methods>
+          <include name="testdianji_ht_sjqd"/>
+          <include name="setup"/>
+          <include name="testdianji_ht_k"/>
+          <include name="testdianji_ht"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- kuangjia_qiantai_test.luntanTest -->
+      <class name="yuansheng_houtai_action.chanpinTest">
+        <methods>
+          <include name="testchanpin"/>
+          <include name="quit"/>
+          <include name="setupBrowser"/>
+        </methods>
+      </class> <!-- yuansheng_houtai_action.chanpinTest -->
+      <class name="yuansheng_houtai_action.tuiguang_guanjianciTest">
+        <methods>
+          <include name="login1"/>
+          <include name="tianjia"/>
+          <include name="setupBrowser"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- yuansheng_houtai_action.tuiguang_guanjianciTest -->
+      <class name="kuangjia_qiantai_test.liuyanTest">
+        <methods>
+          <include name="setup"/>
+          <include name="testliuyan_sjqd"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- kuangjia_qiantai_test.liuyanTest -->
+    </classes>
+  </test> <!-- shezhi_zhandian(failed) -->
+</suite> <!-- Failed suite [s1] -->

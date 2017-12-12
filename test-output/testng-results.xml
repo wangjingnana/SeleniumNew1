@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="5" failed="5" total="53" passed="43">
+  <reporter-output>
+  </reporter-output>
+  <suite name="s1" duration-ms="1022165" started-at="2017-12-12T07:13:12Z" finished-at="2017-12-12T07:30:14Z">
+    <groups>
+    </groups>
+    <test name="shezhi_zhandian" duration-ms="1022165" started-at="2017-12-12T07:13:12Z" finished-at="2017-12-12T07:30:14Z">
+      <class name="yuansheng_houtai_action.chanpin_tianjiaTest">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:yuansheng_houtai_action.chanpin_tianjiaTest@326de728]" name="setupBrowser" is-config="true" duration-ms="8993" started-at="2017-12-12T15:19:22Z" finished-at="2017-12-12T15:19:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="login1()[pri:0, instance:yuansheng_houtai_action.chanpin_tianjiaTest@326de728]" name="login1" duration-ms="3749" started-at="2017-12-12T15:19:31Z" finished-at="2017-12-12T15:19:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:yuansheng_houtai_action.chanpin_tianjiaTest@326de728]" name="quit" is-config="true" duration-ms="4176" started-at="2017-12-12T15:19:35Z" finished-at="2017-12-12T15:19:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="SKIP" signature="tianjia(java.lang.String, java.lang.String)[pri:0, instance:yuansheng_houtai_action.chanpin_tianjiaTest@326de728]" name="tianjia" duration-ms="0" started-at="2017-12-12T15:19:39Z" data-provider="add" depends-on-methods="yuansheng_houtai_action.chanpin_tianjiaTest.login1" finished-at="2017-12-12T15:19:39Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Can't invoke method public java.lang.Object[][] dataprovider.NSDataProvider.getData() on this instance of class yuansheng_houtai_action.chanpin_tianjiaTest due to class mismatch]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Can't invoke method public java.lang.Object[][] dataprovider.NSDataProvider.getData() on this instance of class yuansheng_houtai_action.chanpin_tianjiaTest due to class mismatch
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:136)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tianjia -->
+      </class> <!-- yuansheng_houtai_action.chanpin_tianjiaTest -->
+      <class name="kuangjia_qiantai_test.bianji_sjqdTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:kuangjia_qiantai_test.bianji_sjqdTest@483bf400]" name="doBeforeMethod" is-config="true" duration-ms="3934" started-at="2017-12-12T15:14:57Z" finished-at="2017-12-12T15:15:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:kuangjia_qiantai_test.bianji_sjqdTest@483bf400]" name="setup" is-config="true" duration-ms="4" started-at="2017-12-12T15:15:01Z" finished-at="2017-12-12T15:15:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="testhuitie_bt(java.lang.String)[pri:0, instance:kuangjia_qiantai_test.bianji_sjqdTest@483bf400]" name="testhuitie_bt" duration-ms="0" started-at="2017-12-12T15:15:01Z" data-provider="neirong" finished-at="2017-12-12T15:15:01Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Can't invoke method public java.lang.Object[][] dataprovider.NSDataProvider3.getData() on this instance of class kuangjia_qiantai_test.bianji_sjqdTest due to class mismatch]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Can't invoke method public java.lang.Object[][] dataprovider.NSDataProvider3.getData() on this instance of class kuangjia_qiantai_test.bianji_sjqdTest due to class mismatch
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:136)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testhuitie_bt -->
+      </class> <!-- kuangjia_qiantai_test.bianji_sjqdTest -->
+      <class name="kuangjia_qiantai_test.luntanTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:kuangjia_qiantai_test.luntanTest@77f03bb1]" name="doBeforeMethod" is-config="true" duration-ms="4445" started-at="2017-12-12T15:16:16Z" finished-at="2017-12-12T15:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:kuangjia_qiantai_test.luntanTest@77f03bb1]" name="setup" is-config="true" duration-ms="3" started-at="2017-12-12T15:16:20Z" finished-at="2017-12-12T15:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testhuitie_bj()[pri:0, instance:kuangjia_qiantai_test.luntanTest@77f03bb1]" name="testhuitie_bj" duration-ms="29762" started-at="2017-12-12T15:16:20Z" finished-at="2017-12-12T15:16:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testhuitie_bj -->
+        <test-method status="FAIL" signature="testdianji_ht_k()[pri:0, instance:kuangjia_qiantai_test.luntanTest@77f03bb1]" name="testdianji_ht_k" duration-ms="15838" started-at="2017-12-12T15:16:50Z" finished-at="2017-12-12T15:17:06Z">
+          <exception class="org.openqa.selenium.NoSuchFrameException">
+            <message>
+              <![CDATA[Unable to locate frame: undefined
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WJN', ip: '172.27.35.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\wjn1121\AppData\Local\Temp\rust_mozprofile.fVaVRDE0VpUb, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=6.3, moz:processID=14320, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 8b52bd9a-f7f2-4b72-8c9e-ae72a7e75ef4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchFrameException: Unable to locate frame: undefined
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WJN', ip: '172.27.35.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\wjn1121\AppData\Local\Temp\rust_mozprofile.fVaVRDE0VpUb, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=6.3, moz:processID=14320, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 8b52bd9a-f7f2-4b72-8c9e-ae72a7e75ef4
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:912)
+	at com.webtest.core.WebDriverEngine.enterFrame(WebDriverEngine.java:63)
+	at kuangjia_qiantai_action.luntan.dianji_ht_k(luntan.java:70)
+	at kuangjia_qiantai_test.luntanTest.testdianji_ht_k(luntanTest.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchFrameException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdianji_ht_k -->
+        <test-method status="PASS" signature="testhuitie_bt()[pri:0, instance:kuangjia_qiantai_test.luntanTest@77f03bb1]" name="testhuitie_bt" duration-ms="26598" started-at="2017-12-12T15:17:06Z" finished-at="2017-12-12T15:17:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testhuitie_bt -->
+        <test-method status="PASS" signature="testhuitie_zdtl()[pri:0, instance:kuangjia_qiantai_test.luntanTest@77f03bb1]" name="testhuitie_zdtl" duration-ms="33577" started-at="2017-12-12T15:17:32Z" finished-at="2017-12-12T15:18:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testhuitie_zdtl -->
+        <test-method status="FAIL" signature="testdianji_ht()[pri:0, instance:kuangjia_qiantai_test.luntanTest@77f03bb1]" name="testdianji_ht" duration-ms="15580" started-at="2017-12-12T15:18:06Z" finished-at="2017-12-12T15:18:22Z">
+          <exception class="org.openqa.selenium.NoSuchFrameException">
+            <message>
+              <![CDATA[Unable to locate frame: undefined
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WJN', ip: '172.27.35.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\wjn1121\AppData\Local\Temp\rust_mozprofile.fVaVRDE0VpUb, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=6.3, moz:processID=14320, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 8b52bd9a-f7f2-4b72-8c9e-ae72a7e75ef4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchFrameException: Unable to locate frame: undefined
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WJN', ip: '172.27.35.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\wjn1121\AppData\Local\Temp\rust_mozprofile.fVaVRDE0VpUb, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=6.3, moz:processID=14320, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 8b52bd9a-f7f2-4b72-8c9e-ae72a7e75ef4
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:912)
+	at com.webtest.core.WebDriverEngine.enterFrame(WebDriverEngine.java:63)
+	at kuangjia_qiantai_action.luntan.dianji_ht(luntan.java:32)
+	at kuangjia_qiantai_test.luntanTest.testdianji_ht(luntanTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchFrameException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdianji_ht -->
+        <test-method status="SKIP" signature="testdianji_ht_sjqd(java.lang.String)[pri:0, instance:kuangjia_qiantai_test.luntanTest@77f03bb1]" name="testdianji_ht_sjqd" duration-ms="0" started-at="2017-12-12T15:18:22Z" data-provider="huitie" finished-at="2017-12-12T15:18:22Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Can't invoke method public java.lang.Object[][] dataprovider.NSDataProvider2.getData() on this instance of class kuangjia_qiantai_test.luntanTest due to class mismatch]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Can't invoke method public java.lang.Object[][] dataprovider.NSDataProvider2.getData() on this instance of class kuangjia_qiantai_test.luntanTest due to class mismatch
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:136)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdianji_ht_sjqd -->
+        <test-method status="PASS" signature="testdianji()[pri:0, instance:kuangjia_qiantai_test.luntanTest@77f03bb1]" name="testdianji" duration-ms="9655" started-at="2017-12-12T15:18:22Z" finished-at="2017-12-12T15:18:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdianji -->
+        <test-method status="PASS" signature="testhuitie_tz()[pri:0, instance:kuangjia_qiantai_test.luntanTest@77f03bb1]" name="testhuitie_tz" duration-ms="26636" started-at="2017-12-12T15:18:31Z" finished-at="2017-12-12T15:18:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testhuitie_tz -->
+        <test-method status="PASS" signature="testdianji_ll()[pri:0, instance:kuangjia_qiantai_test.luntanTest@77f03bb1]" name="testdianji_ll" duration-ms="24082" started-at="2017-12-12T15:18:58Z" finished-at="2017-12-12T15:19:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdianji_ll -->
+      </class> <!-- kuangjia_qiantai_test.luntanTest -->
+      <class name="yuansheng_houtai_action.chanpinTest">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="setupBrowser" is-config="true" duration-ms="7729" started-at="2017-12-12T15:19:39Z" finished-at="2017-12-12T15:19:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="testbianji()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="testbianji" duration-ms="9730" started-at="2017-12-12T15:19:47Z" finished-at="2017-12-12T15:19:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testbianji -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="quit" is-config="true" duration-ms="1946" started-at="2017-12-12T15:19:56Z" finished-at="2017-12-12T15:19:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="setupBrowser" is-config="true" duration-ms="10157" started-at="2017-12-12T15:19:58Z" finished-at="2017-12-12T15:20:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="testbuju()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="testbuju" duration-ms="8919" started-at="2017-12-12T15:20:08Z" finished-at="2017-12-12T15:20:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testbuju -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="quit" is-config="true" duration-ms="1918" started-at="2017-12-12T15:20:17Z" finished-at="2017-12-12T15:20:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="setupBrowser" is-config="true" duration-ms="7859" started-at="2017-12-12T15:20:19Z" finished-at="2017-12-12T15:20:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="testbuju_s()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="testbuju_s" duration-ms="14506" started-at="2017-12-12T15:20:27Z" finished-at="2017-12-12T15:20:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testbuju_s -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="quit" is-config="true" duration-ms="2189" started-at="2017-12-12T15:20:42Z" finished-at="2017-12-12T15:20:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="setupBrowser" is-config="true" duration-ms="7771" started-at="2017-12-12T15:20:44Z" finished-at="2017-12-12T15:20:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="FAIL" signature="testchanpin()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="testchanpin" duration-ms="42145" started-at="2017-12-12T15:20:52Z" finished-at="2017-12-12T15:21:34Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at yuansheng_houtai_action.chanpinTest.testchanpin(chanpinTest.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testchanpin -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="quit" is-config="true" duration-ms="2279" started-at="2017-12-12T15:21:34Z" finished-at="2017-12-12T15:21:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="setupBrowser" is-config="true" duration-ms="8940" started-at="2017-12-12T15:21:36Z" finished-at="2017-12-12T15:21:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="testfanhui()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="testfanhui" duration-ms="12015" started-at="2017-12-12T15:21:45Z" finished-at="2017-12-12T15:21:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfanhui -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="quit" is-config="true" duration-ms="1968" started-at="2017-12-12T15:21:57Z" finished-at="2017-12-12T15:21:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="setupBrowser" is-config="true" duration-ms="8157" started-at="2017-12-12T15:21:59Z" finished-at="2017-12-12T15:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="testfujian()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="testfujian" duration-ms="8925" started-at="2017-12-12T15:22:07Z" finished-at="2017-12-12T15:22:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfujian -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="quit" is-config="true" duration-ms="1869" started-at="2017-12-12T15:22:16Z" finished-at="2017-12-12T15:22:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="setupBrowser" is-config="true" duration-ms="7691" started-at="2017-12-12T15:22:18Z" finished-at="2017-12-12T15:22:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="testgdshanc()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="testgdshanc" duration-ms="9333" started-at="2017-12-12T15:22:26Z" finished-at="2017-12-12T15:22:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgdshanc -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="quit" is-config="true" duration-ms="1989" started-at="2017-12-12T15:22:35Z" finished-at="2017-12-12T15:22:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="setupBrowser" is-config="true" duration-ms="7914" started-at="2017-12-12T15:22:37Z" finished-at="2017-12-12T15:22:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="testgengduo()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="testgengduo" duration-ms="6881" started-at="2017-12-12T15:22:45Z" finished-at="2017-12-12T15:22:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgengduo -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="quit" is-config="true" duration-ms="1927" started-at="2017-12-12T15:22:52Z" finished-at="2017-12-12T15:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="setupBrowser" is-config="true" duration-ms="7762" started-at="2017-12-12T15:22:54Z" finished-at="2017-12-12T15:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="testsousuo()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="testsousuo" duration-ms="9512" started-at="2017-12-12T15:23:01Z" finished-at="2017-12-12T15:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsousuo -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="quit" is-config="true" duration-ms="2030" started-at="2017-12-12T15:23:11Z" finished-at="2017-12-12T15:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="setupBrowser" is-config="true" duration-ms="9514" started-at="2017-12-12T15:23:13Z" finished-at="2017-12-12T15:23:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="testtupian()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="testtupian" duration-ms="9116" started-at="2017-12-12T15:23:22Z" finished-at="2017-12-12T15:23:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testtupian -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:yuansheng_houtai_action.chanpinTest@25618e91]" name="quit" is-config="true" duration-ms="2021" started-at="2017-12-12T15:23:32Z" finished-at="2017-12-12T15:23:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- yuansheng_houtai_action.chanpinTest -->
+      <class name="yuansheng_houtai_action.dingdan_jifenTest">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:yuansheng_houtai_action.dingdan_jifenTest@7a92922]" name="setupBrowser" is-config="true" duration-ms="8858" started-at="2017-12-12T15:23:34Z" finished-at="2017-12-12T15:23:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="daifahuo()[pri:0, instance:yuansheng_houtai_action.dingdan_jifenTest@7a92922]" name="daifahuo" duration-ms="8804" started-at="2017-12-12T15:23:42Z" finished-at="2017-12-12T15:23:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- daifahuo -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:yuansheng_houtai_action.dingdan_jifenTest@7a92922]" name="quit" is-config="true" duration-ms="1946" started-at="2017-12-12T15:23:51Z" finished-at="2017-12-12T15:23:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:yuansheng_houtai_action.dingdan_jifenTest@7a92922]" name="setupBrowser" is-config="true" duration-ms="8883" started-at="2017-12-12T15:23:53Z" finished-at="2017-12-12T15:24:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="jifen()[pri:0, instance:yuansheng_houtai_action.dingdan_jifenTest@7a92922]" name="jifen" duration-ms="7590" started-at="2017-12-12T15:24:02Z" finished-at="2017-12-12T15:24:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jifen -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:yuansheng_houtai_action.dingdan_jifenTest@7a92922]" name="quit" is-config="true" duration-ms="1896" started-at="2017-12-12T15:24:10Z" finished-at="2017-12-12T15:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- yuansheng_houtai_action.dingdan_jifenTest -->
+      <class name="yuansheng_houtai_action.shezhi_shezhiTest">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:yuansheng_houtai_action.shezhi_shezhiTest@5474c6c]" name="setupBrowser" is-config="true" duration-ms="9074" started-at="2017-12-12T15:26:37Z" finished-at="2017-12-12T15:26:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="kucunclose()[pri:0, instance:yuansheng_houtai_action.shezhi_shezhiTest@5474c6c]" name="kucunclose" duration-ms="14366" started-at="2017-12-12T15:26:46Z" finished-at="2017-12-12T15:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kucunclose -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:yuansheng_houtai_action.shezhi_shezhiTest@5474c6c]" name="quit" is-config="true" duration-ms="1805" started-at="2017-12-12T15:27:01Z" finished-at="2017-12-12T15:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:yuansheng_houtai_action.shezhi_shezhiTest@5474c6c]" name="setupBrowser" is-config="true" duration-ms="7624" started-at="2017-12-12T15:27:03Z" finished-at="2017-12-12T15:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="kucunopen()[pri:0, instance:yuansheng_houtai_action.shezhi_shezhiTest@5474c6c]" name="kucunopen" duration-ms="14619" started-at="2017-12-12T15:27:10Z" finished-at="2017-12-12T15:27:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kucunopen -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:yuansheng_houtai_action.shezhi_shezhiTest@5474c6c]" name="quit" is-config="true" duration-ms="2051" started-at="2017-12-12T15:27:25Z" finished-at="2017-12-12T15:27:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:yuansheng_houtai_action.shezhi_shezhiTest@5474c6c]" name="setupBrowser" is-config="true" duration-ms="7664" started-at="2017-12-12T15:27:27Z" finished-at="2017-12-12T15:27:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="method()[pri:0, instance:yuansheng_houtai_action.shezhi_shezhiTest@5474c6c]" name="method" duration-ms="14984" started-at="2017-12-12T15:27:35Z" finished-at="2017-12-12T15:27:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:yuansheng_houtai_action.shezhi_shezhiTest@5474c6c]" name="quit" is-config="true" duration-ms="2223" started-at="2017-12-12T15:27:50Z" finished-at="2017-12-12T15:27:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:yuansheng_houtai_action.shezhi_shezhiTest@5474c6c]" name="setupBrowser" is-config="true" duration-ms="7701" started-at="2017-12-12T15:27:52Z" finished-at="2017-12-12T15:27:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="money()[pri:0, instance:yuansheng_houtai_action.shezhi_shezhiTest@5474c6c]" name="money" duration-ms="20767" started-at="2017-12-12T15:27:59Z" finished-at="2017-12-12T15:28:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- money -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:yuansheng_houtai_action.shezhi_shezhiTest@5474c6c]" name="quit" is-config="true" duration-ms="2101" started-at="2017-12-12T15:28:20Z" finished-at="2017-12-12T15:28:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:yuansheng_houtai_action.shezhi_shezhiTest@5474c6c]" name="setupBrowser" is-config="true" duration-ms="9158" started-at="2017-12-12T15:28:22Z" finished-at="2017-12-12T15:28:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="shezhiTestfail()[pri:0, instance:yuansheng_houtai_action.shezhi_shezhiTest@5474c6c]" name="shezhiTestfail" duration-ms="14425" started-at="2017-12-12T15:28:31Z" finished-at="2017-12-12T15:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shezhiTestfail -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:yuansheng_houtai_action.shezhi_shezhiTest@5474c6c]" name="quit" is-config="true" duration-ms="2093" started-at="2017-12-12T15:28:46Z" finished-at="2017-12-12T15:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:yuansheng_houtai_action.shezhi_shezhiTest@5474c6c]" name="setupBrowser" is-config="true" duration-ms="8111" started-at="2017-12-12T15:28:48Z" finished-at="2017-12-12T15:28:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="shezhiTestsuccess()[pri:0, instance:yuansheng_houtai_action.shezhi_shezhiTest@5474c6c]" name="shezhiTestsuccess" duration-ms="14370" started-at="2017-12-12T15:28:56Z" finished-at="2017-12-12T15:29:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shezhiTestsuccess -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:yuansheng_houtai_action.shezhi_shezhiTest@5474c6c]" name="quit" is-config="true" duration-ms="2008" started-at="2017-12-12T15:29:10Z" finished-at="2017-12-12T15:29:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:yuansheng_houtai_action.shezhi_shezhiTest@5474c6c]" name="setupBrowser" is-config="true" duration-ms="7724" started-at="2017-12-12T15:29:12Z" finished-at="2017-12-12T15:29:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="time()[pri:0, instance:yuansheng_houtai_action.shezhi_shezhiTest@5474c6c]" name="time" duration-ms="14528" started-at="2017-12-12T15:29:20Z" finished-at="2017-12-12T15:29:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:yuansheng_houtai_action.shezhi_shezhiTest@5474c6c]" name="quit" is-config="true" duration-ms="1919" started-at="2017-12-12T15:29:35Z" finished-at="2017-12-12T15:29:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- yuansheng_houtai_action.shezhi_shezhiTest -->
+      <class name="yuansheng_houtai_action.shezhi_kuaidiTest">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:yuansheng_houtai_action.shezhi_kuaidiTest@2cfb4a64]" name="setupBrowser" is-config="true" duration-ms="7758" started-at="2017-12-12T15:26:13Z" finished-at="2017-12-12T15:26:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="FAIL" signature="kuaidi()[pri:0, instance:yuansheng_houtai_action.shezhi_kuaidiTest@2cfb4a64]" name="kuaidi" duration-ms="14347" started-at="2017-12-12T15:26:21Z" finished-at="2017-12-12T15:26:35Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //input[@name='children[1]']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WJN', ip: '172.27.35.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\wjn1121\AppData\Local\Temp\rust_mozprofile.L5otOXaU65Vj, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=6.3, moz:processID=9720, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: a533acff-aeb4-450b-ab60-7324dfcc70e2
+*** Element info: {Using=xpath, value=//input[@name='children[1]']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@name='children[1]']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'WJN', ip: '172.27.35.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\wjn1121\AppData\Local\Temp\rust_mozprofile.L5otOXaU65Vj, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=6.3, moz:processID=9720, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: a533acff-aeb4-450b-ab60-7324dfcc70e2
+*** Element info: {Using=xpath, value=//input[@name='children[1]']}
+	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy27.sendKeys(Unknown Source)
+	at yuansheng_houtai_action.shezhi_kuaidi.shuru(shezhi_kuaidi.java:39)
+	at yuansheng_houtai_action.shezhi_kuaidiTest.kuaidi(shezhi_kuaidiTest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kuaidi -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:yuansheng_houtai_action.shezhi_kuaidiTest@2cfb4a64]" name="quit" is-config="true" duration-ms="2306" started-at="2017-12-12T15:26:35Z" finished-at="2017-12-12T15:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- yuansheng_houtai_action.shezhi_kuaidiTest -->
+      <class name="yuansheng_houtai_action.dingdan_shangpinTest">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:yuansheng_houtai_action.dingdan_shangpinTest@71f2a7d5]" name="setupBrowser" is-config="true" duration-ms="7602" started-at="2017-12-12T15:24:12Z" finished-at="2017-12-12T15:24:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="testdaif()[pri:0, instance:yuansheng_houtai_action.dingdan_shangpinTest@71f2a7d5]" name="testdaif" duration-ms="7937" started-at="2017-12-12T15:24:19Z" finished-at="2017-12-12T15:24:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdaif -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:yuansheng_houtai_action.dingdan_shangpinTest@71f2a7d5]" name="quit" is-config="true" duration-ms="1850" started-at="2017-12-12T15:24:27Z" finished-at="2017-12-12T15:24:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:yuansheng_houtai_action.dingdan_shangpinTest@71f2a7d5]" name="setupBrowser" is-config="true" duration-ms="7683" started-at="2017-12-12T15:24:29Z" finished-at="2017-12-12T15:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="testdaish()[pri:0, instance:yuansheng_houtai_action.dingdan_shangpinTest@71f2a7d5]" name="testdaish" duration-ms="7871" started-at="2017-12-12T15:24:37Z" finished-at="2017-12-12T15:24:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdaish -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:yuansheng_houtai_action.dingdan_shangpinTest@71f2a7d5]" name="quit" is-config="true" duration-ms="1816" started-at="2017-12-12T15:24:45Z" finished-at="2017-12-12T15:24:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:yuansheng_houtai_action.dingdan_shangpinTest@71f2a7d5]" name="setupBrowser" is-config="true" duration-ms="7740" started-at="2017-12-12T15:24:46Z" finished-at="2017-12-12T15:24:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="testgaij()[pri:0, instance:yuansheng_houtai_action.dingdan_shangpinTest@71f2a7d5]" name="testgaij" duration-ms="10719" started-at="2017-12-12T15:24:54Z" finished-at="2017-12-12T15:25:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgaij -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:yuansheng_houtai_action.dingdan_shangpinTest@71f2a7d5]" name="quit" is-config="true" duration-ms="1889" started-at="2017-12-12T15:25:05Z" finished-at="2017-12-12T15:25:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:yuansheng_houtai_action.dingdan_shangpinTest@71f2a7d5]" name="setupBrowser" is-config="true" duration-ms="8344" started-at="2017-12-12T15:25:07Z" finished-at="2017-12-12T15:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="testgaijs()[pri:0, instance:yuansheng_houtai_action.dingdan_shangpinTest@71f2a7d5]" name="testgaijs" duration-ms="13670" started-at="2017-12-12T15:25:15Z" finished-at="2017-12-12T15:25:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgaijs -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:yuansheng_houtai_action.dingdan_shangpinTest@71f2a7d5]" name="quit" is-config="true" duration-ms="1988" started-at="2017-12-12T15:25:29Z" finished-at="2017-12-12T15:25:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:yuansheng_houtai_action.dingdan_shangpinTest@71f2a7d5]" name="setupBrowser" is-config="true" duration-ms="8272" started-at="2017-12-12T15:25:31Z" finished-at="2017-12-12T15:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="testshanc()[pri:0, instance:yuansheng_houtai_action.dingdan_shangpinTest@71f2a7d5]" name="testshanc" duration-ms="11205" started-at="2017-12-12T15:25:39Z" finished-at="2017-12-12T15:25:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testshanc -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:yuansheng_houtai_action.dingdan_shangpinTest@71f2a7d5]" name="quit" is-config="true" duration-ms="1730" started-at="2017-12-12T15:25:50Z" finished-at="2017-12-12T15:25:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:yuansheng_houtai_action.dingdan_shangpinTest@71f2a7d5]" name="setupBrowser" is-config="true" duration-ms="8277" started-at="2017-12-12T15:25:52Z" finished-at="2017-12-12T15:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="testxiangq()[pri:0, instance:yuansheng_houtai_action.dingdan_shangpinTest@71f2a7d5]" name="testxiangq" duration-ms="10733" started-at="2017-12-12T15:26:00Z" finished-at="2017-12-12T15:26:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testxiangq -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:yuansheng_houtai_action.dingdan_shangpinTest@71f2a7d5]" name="quit" is-config="true" duration-ms="1971" started-at="2017-12-12T15:26:11Z" finished-at="2017-12-12T15:26:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- yuansheng_houtai_action.dingdan_shangpinTest -->
+      <class name="kuangjia_houtai_test.shezhi_zhandianTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:kuangjia_houtai_test.shezhi_zhandianTest@3ecf72fd]" name="doBeforeMethod" is-config="true" duration-ms="6282" started-at="2017-12-12T15:13:12Z" finished-at="2017-12-12T15:13:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:kuangjia_houtai_test.shezhi_zhandianTest@3ecf72fd]" name="setup" is-config="true" duration-ms="9" started-at="2017-12-12T15:13:18Z" finished-at="2017-12-12T15:13:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testdianji()[pri:0, instance:kuangjia_houtai_test.shezhi_zhandianTest@3ecf72fd]" name="testdianji" duration-ms="15742" started-at="2017-12-12T15:13:18Z" finished-at="2017-12-12T15:13:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdianji -->
+        <test-method status="FAIL" signature="testxiugai()[pri:0, instance:kuangjia_houtai_test.shezhi_zhandianTest@3ecf72fd]" name="testxiugai" duration-ms="14806" started-at="2017-12-12T15:13:34Z" finished-at="2017-12-12T15:13:49Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at kuangjia_houtai_test.shezhi_zhandianTest.testxiugai(shezhi_zhandianTest.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testxiugai -->
+        <test-method status="PASS" signature="testbeizhushuru()[pri:0, instance:kuangjia_houtai_test.shezhi_zhandianTest@3ecf72fd]" name="testbeizhushuru" duration-ms="20070" started-at="2017-12-12T15:13:49Z" finished-at="2017-12-12T15:14:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testbeizhushuru -->
+        <test-method status="PASS" signature="testxiugaishuru()[pri:0, instance:kuangjia_houtai_test.shezhi_zhandianTest@3ecf72fd]" name="testxiugaishuru" duration-ms="14475" started-at="2017-12-12T15:14:09Z" finished-at="2017-12-12T15:14:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testxiugaishuru -->
+        <test-method status="PASS" signature="testbeizhu()[pri:0, instance:kuangjia_houtai_test.shezhi_zhandianTest@3ecf72fd]" name="testbeizhu" duration-ms="14475" started-at="2017-12-12T15:14:23Z" finished-at="2017-12-12T15:14:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testbeizhu -->
+        <test-method status="PASS" signature="testbeifen()[pri:0, instance:kuangjia_houtai_test.shezhi_zhandianTest@3ecf72fd]" name="testbeifen" duration-ms="18803" started-at="2017-12-12T15:14:38Z" finished-at="2017-12-12T15:14:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testbeifen -->
+      </class> <!-- kuangjia_houtai_test.shezhi_zhandianTest -->
+      <class name="yuansheng_houtai_action.tuiguang_guanjianciTest">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:yuansheng_houtai_action.tuiguang_guanjianciTest@4b6995df]" name="setupBrowser" is-config="true" duration-ms="9142" started-at="2017-12-12T15:29:37Z" finished-at="2017-12-12T15:29:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="dianji()[pri:0, instance:yuansheng_houtai_action.tuiguang_guanjianciTest@4b6995df]" name="dianji" duration-ms="8836" started-at="2017-12-12T15:29:46Z" finished-at="2017-12-12T15:29:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dianji -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:yuansheng_houtai_action.tuiguang_guanjianciTest@4b6995df]" name="quit" is-config="true" duration-ms="1941" started-at="2017-12-12T15:29:55Z" finished-at="2017-12-12T15:29:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:yuansheng_houtai_action.tuiguang_guanjianciTest@4b6995df]" name="setupBrowser" is-config="true" duration-ms="11829" started-at="2017-12-12T15:29:57Z" finished-at="2017-12-12T15:30:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="login1()[pri:0, instance:yuansheng_houtai_action.tuiguang_guanjianciTest@4b6995df]" name="login1" duration-ms="3635" started-at="2017-12-12T15:30:08Z" finished-at="2017-12-12T15:30:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:yuansheng_houtai_action.tuiguang_guanjianciTest@4b6995df]" name="quit" is-config="true" duration-ms="2097" started-at="2017-12-12T15:30:12Z" finished-at="2017-12-12T15:30:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="SKIP" signature="tianjia(java.lang.String)[pri:0, instance:yuansheng_houtai_action.tuiguang_guanjianciTest@4b6995df]" name="tianjia" duration-ms="0" started-at="2017-12-12T15:30:14Z" data-provider="lianjie" depends-on-methods="yuansheng_houtai_action.tuiguang_guanjianciTest.login1" finished-at="2017-12-12T15:30:14Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Can't invoke method public java.lang.Object[][] dataprovider.NSDataProvider1.getData() on this instance of class yuansheng_houtai_action.tuiguang_guanjianciTest due to class mismatch]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Can't invoke method public java.lang.Object[][] dataprovider.NSDataProvider1.getData() on this instance of class yuansheng_houtai_action.tuiguang_guanjianciTest due to class mismatch
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:136)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tianjia -->
+      </class> <!-- yuansheng_houtai_action.tuiguang_guanjianciTest -->
+      <class name="kuangjia_qiantai_test.liuyanTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:kuangjia_qiantai_test.liuyanTest@21a06946]" name="doBeforeMethod" is-config="true" duration-ms="3897" started-at="2017-12-12T15:15:01Z" finished-at="2017-12-12T15:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:kuangjia_qiantai_test.liuyanTest@21a06946]" name="setup" is-config="true" duration-ms="1" started-at="2017-12-12T15:15:04Z" finished-at="2017-12-12T15:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testshuru()[pri:0, instance:kuangjia_qiantai_test.liuyanTest@21a06946]" name="testshuru" duration-ms="16363" started-at="2017-12-12T15:15:04Z" finished-at="2017-12-12T15:15:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testshuru -->
+        <test-method status="PASS" signature="testjieshou()[pri:0, instance:kuangjia_qiantai_test.liuyanTest@21a06946]" name="testjieshou" duration-ms="13386" started-at="2017-12-12T15:15:21Z" finished-at="2017-12-12T15:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testjieshou -->
+        <test-method status="PASS" signature="testkejian()[pri:0, instance:kuangjia_qiantai_test.liuyanTest@21a06946]" name="testkejian" duration-ms="13118" started-at="2017-12-12T15:15:34Z" finished-at="2017-12-12T15:15:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testkejian -->
+        <test-method status="PASS" signature="testdianji()[pri:0, instance:kuangjia_qiantai_test.liuyanTest@21a06946]" name="testdianji" duration-ms="10010" started-at="2017-12-12T15:15:47Z" finished-at="2017-12-12T15:15:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdianji -->
+        <test-method status="PASS" signature="testneirong()[pri:0, instance:kuangjia_qiantai_test.liuyanTest@21a06946]" name="testneirong" duration-ms="18411" started-at="2017-12-12T15:15:57Z" finished-at="2017-12-12T15:16:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testneirong -->
+        <test-method status="SKIP" signature="testliuyan_sjqd(java.lang.String)[pri:0, instance:kuangjia_qiantai_test.liuyanTest@21a06946]" name="testliuyan_sjqd" duration-ms="0" started-at="2017-12-12T15:16:16Z" data-provider="liuyan" finished-at="2017-12-12T15:16:16Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Can't invoke method public java.lang.Object[][] dataprovider.NSDataProvider4.getData() on this instance of class kuangjia_qiantai_test.liuyanTest due to class mismatch]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Can't invoke method public java.lang.Object[][] dataprovider.NSDataProvider4.getData() on this instance of class kuangjia_qiantai_test.liuyanTest due to class mismatch
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:136)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testliuyan_sjqd -->
+      </class> <!-- kuangjia_qiantai_test.liuyanTest -->
+    </test> <!-- shezhi_zhandian -->
+  </suite> <!-- s1 -->
+</testng-results>

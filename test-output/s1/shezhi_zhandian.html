@@ -1,0 +1,737 @@
+<html>
+<head>
+<title>TestNG:  shezhi_zhandian</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>shezhi_zhandian</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>43/5/5</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 12 15:13:12 CST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>1022 seconds (1022165 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='yuansheng_houtai_action.shezhi_kuaidiTest.kuaidi()'><b>kuaidi</b><br>Test class: yuansheng_houtai_action.shezhi_kuaidiTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@name=&apos;children[1]&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;WJN&apos;, ip: &apos;172.27.35.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\wjn1121\AppData\Local\Temp\rust_mozprofile.L5otOXaU65Vj, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=6.3, moz:processID=9720, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: a533acff-aeb4-450b-ab60-7324dfcc70e2
+*** Element info: {Using=xpath, value=//input[@name=&apos;children[1]&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy27.sendKeys(Unknown Source)
+	at yuansheng_houtai_action.shezhi_kuaidi.shuru(shezhi_kuaidi.java:39)
+	at yuansheng_houtai_action.shezhi_kuaidiTest.kuaidi(shezhi_kuaidiTest.java:22)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1483145520", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1483145520'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@name=&apos;children[1]&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;WJN&apos;, ip: &apos;172.27.35.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\wjn1121\AppData\Local\Temp\rust_mozprofile.L5otOXaU65Vj, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=6.3, moz:processID=9720, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: a533acff-aeb4-450b-ab60-7324dfcc70e2
+*** Element info: {Using=xpath, value=//input[@name=&apos;children[1]&apos;]}
+	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy27.sendKeys(Unknown Source)
+	at yuansheng_houtai_action.shezhi_kuaidi.shuru(shezhi_kuaidi.java:39)
+	at yuansheng_houtai_action.shezhi_kuaidiTest.kuaidi(shezhi_kuaidiTest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>14</td>
+<td>yuansheng_houtai_action.shezhi_kuaidiTest@2cfb4a64</td></tr>
+<tr>
+<td title='yuansheng_houtai_action.chanpinTest.testchanpin()'><b>testchanpin</b><br>Test class: yuansheng_houtai_action.chanpinTest</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at yuansheng_houtai_action.chanpinTest.testchanpin(chanpinTest.java:58)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2022689531", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2022689531'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at yuansheng_houtai_action.chanpinTest.testchanpin(chanpinTest.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>42</td>
+<td>yuansheng_houtai_action.chanpinTest@25618e91</td></tr>
+<tr>
+<td title='kuangjia_qiantai_test.luntanTest.testdianji_ht()'><b>testdianji_ht</b><br>Test class: kuangjia_qiantai_test.luntanTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchFrameException: Unable to locate frame: undefined
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;WJN&apos;, ip: &apos;172.27.35.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\wjn1121\AppData\Local\Temp\rust_mozprofile.fVaVRDE0VpUb, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=6.3, moz:processID=14320, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 8b52bd9a-f7f2-4b72-8c9e-ae72a7e75ef4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:912)
+	at com.webtest.core.WebDriverEngine.enterFrame(WebDriverEngine.java:63)
+	at kuangjia_qiantai_action.luntan.dianji_ht(luntan.java:32)
+	at kuangjia_qiantai_test.luntanTest.testdianji_ht(luntanTest.java:42)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1863655430", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1863655430'><pre>org.openqa.selenium.NoSuchFrameException: Unable to locate frame: undefined
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;WJN&apos;, ip: &apos;172.27.35.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\wjn1121\AppData\Local\Temp\rust_mozprofile.fVaVRDE0VpUb, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=6.3, moz:processID=14320, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 8b52bd9a-f7f2-4b72-8c9e-ae72a7e75ef4
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:912)
+	at com.webtest.core.WebDriverEngine.enterFrame(WebDriverEngine.java:63)
+	at kuangjia_qiantai_action.luntan.dianji_ht(luntan.java:32)
+	at kuangjia_qiantai_test.luntanTest.testdianji_ht(luntanTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>15</td>
+<td>kuangjia_qiantai_test.luntanTest@77f03bb1</td></tr>
+<tr>
+<td title='kuangjia_qiantai_test.luntanTest.testdianji_ht_k()'><b>testdianji_ht_k</b><br>Test class: kuangjia_qiantai_test.luntanTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchFrameException: Unable to locate frame: undefined
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;WJN&apos;, ip: &apos;172.27.35.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\wjn1121\AppData\Local\Temp\rust_mozprofile.fVaVRDE0VpUb, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=6.3, moz:processID=14320, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 8b52bd9a-f7f2-4b72-8c9e-ae72a7e75ef4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:912)
+	at com.webtest.core.WebDriverEngine.enterFrame(WebDriverEngine.java:63)
+	at kuangjia_qiantai_action.luntan.dianji_ht_k(luntan.java:70)
+	at kuangjia_qiantai_test.luntanTest.testdianji_ht_k(luntanTest.java:58)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1221981006", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1221981006'><pre>org.openqa.selenium.NoSuchFrameException: Unable to locate frame: undefined
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;WJN&apos;, ip: &apos;172.27.35.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\wjn1121\AppData\Local\Temp\rust_mozprofile.fVaVRDE0VpUb, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0.3, platformVersion=6.3, moz:processID=14320, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 8b52bd9a-f7f2-4b72-8c9e-ae72a7e75ef4
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:912)
+	at com.webtest.core.WebDriverEngine.enterFrame(WebDriverEngine.java:63)
+	at kuangjia_qiantai_action.luntan.dianji_ht_k(luntan.java:70)
+	at kuangjia_qiantai_test.luntanTest.testdianji_ht_k(luntanTest.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>15</td>
+<td>kuangjia_qiantai_test.luntanTest@77f03bb1</td></tr>
+<tr>
+<td title='kuangjia_houtai_test.shezhi_zhandianTest.testxiugai()'><b>testxiugai</b><br>Test class: kuangjia_houtai_test.shezhi_zhandianTest</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at kuangjia_houtai_test.shezhi_zhandianTest.testxiugai(shezhi_zhandianTest.java:65)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1265012928", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1265012928'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at kuangjia_houtai_test.shezhi_zhandianTest.testxiugai(shezhi_zhandianTest.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>14</td>
+<td>kuangjia_houtai_test.shezhi_zhandianTest@3ecf72fd</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='yuansheng_houtai_action.dingdan_jifenTest.daifahuo()'><b>daifahuo</b><br>Test class: yuansheng_houtai_action.dingdan_jifenTest</td>
+<td></td>
+<td>8</td>
+<td>yuansheng_houtai_action.dingdan_jifenTest@7a92922</td></tr>
+<tr>
+<td title='yuansheng_houtai_action.tuiguang_guanjianciTest.dianji()'><b>dianji</b><br>Test class: yuansheng_houtai_action.tuiguang_guanjianciTest</td>
+<td></td>
+<td>8</td>
+<td>yuansheng_houtai_action.tuiguang_guanjianciTest@4b6995df</td></tr>
+<tr>
+<td title='yuansheng_houtai_action.dingdan_jifenTest.jifen()'><b>jifen</b><br>Test class: yuansheng_houtai_action.dingdan_jifenTest</td>
+<td></td>
+<td>7</td>
+<td>yuansheng_houtai_action.dingdan_jifenTest@7a92922</td></tr>
+<tr>
+<td title='yuansheng_houtai_action.shezhi_shezhiTest.kucunclose()'><b>kucunclose</b><br>Test class: yuansheng_houtai_action.shezhi_shezhiTest</td>
+<td></td>
+<td>14</td>
+<td>yuansheng_houtai_action.shezhi_shezhiTest@5474c6c</td></tr>
+<tr>
+<td title='yuansheng_houtai_action.shezhi_shezhiTest.kucunopen()'><b>kucunopen</b><br>Test class: yuansheng_houtai_action.shezhi_shezhiTest</td>
+<td></td>
+<td>14</td>
+<td>yuansheng_houtai_action.shezhi_shezhiTest@5474c6c</td></tr>
+<tr>
+<td title='yuansheng_houtai_action.chanpin_tianjiaTest.login1()'><b>login1</b><br>Test class: yuansheng_houtai_action.chanpin_tianjiaTest</td>
+<td></td>
+<td>3</td>
+<td>yuansheng_houtai_action.chanpin_tianjiaTest@326de728</td></tr>
+<tr>
+<td title='yuansheng_houtai_action.tuiguang_guanjianciTest.login1()'><b>login1</b><br>Test class: yuansheng_houtai_action.tuiguang_guanjianciTest</td>
+<td></td>
+<td>3</td>
+<td>yuansheng_houtai_action.tuiguang_guanjianciTest@4b6995df</td></tr>
+<tr>
+<td title='yuansheng_houtai_action.shezhi_shezhiTest.method()'><b>method</b><br>Test class: yuansheng_houtai_action.shezhi_shezhiTest</td>
+<td></td>
+<td>14</td>
+<td>yuansheng_houtai_action.shezhi_shezhiTest@5474c6c</td></tr>
+<tr>
+<td title='yuansheng_houtai_action.shezhi_shezhiTest.money()'><b>money</b><br>Test class: yuansheng_houtai_action.shezhi_shezhiTest</td>
+<td></td>
+<td>20</td>
+<td>yuansheng_houtai_action.shezhi_shezhiTest@5474c6c</td></tr>
+<tr>
+<td title='yuansheng_houtai_action.shezhi_shezhiTest.shezhiTestfail()'><b>shezhiTestfail</b><br>Test class: yuansheng_houtai_action.shezhi_shezhiTest</td>
+<td></td>
+<td>14</td>
+<td>yuansheng_houtai_action.shezhi_shezhiTest@5474c6c</td></tr>
+<tr>
+<td title='yuansheng_houtai_action.shezhi_shezhiTest.shezhiTestsuccess()'><b>shezhiTestsuccess</b><br>Test class: yuansheng_houtai_action.shezhi_shezhiTest</td>
+<td></td>
+<td>14</td>
+<td>yuansheng_houtai_action.shezhi_shezhiTest@5474c6c</td></tr>
+<tr>
+<td title='kuangjia_houtai_test.shezhi_zhandianTest.testbeifen()'><b>testbeifen</b><br>Test class: kuangjia_houtai_test.shezhi_zhandianTest</td>
+<td></td>
+<td>18</td>
+<td>kuangjia_houtai_test.shezhi_zhandianTest@3ecf72fd</td></tr>
+<tr>
+<td title='kuangjia_houtai_test.shezhi_zhandianTest.testbeizhu()'><b>testbeizhu</b><br>Test class: kuangjia_houtai_test.shezhi_zhandianTest</td>
+<td></td>
+<td>14</td>
+<td>kuangjia_houtai_test.shezhi_zhandianTest@3ecf72fd</td></tr>
+<tr>
+<td title='kuangjia_houtai_test.shezhi_zhandianTest.testbeizhushuru()'><b>testbeizhushuru</b><br>Test class: kuangjia_houtai_test.shezhi_zhandianTest</td>
+<td></td>
+<td>20</td>
+<td>kuangjia_houtai_test.shezhi_zhandianTest@3ecf72fd</td></tr>
+<tr>
+<td title='yuansheng_houtai_action.chanpinTest.testbianji()'><b>testbianji</b><br>Test class: yuansheng_houtai_action.chanpinTest</td>
+<td></td>
+<td>9</td>
+<td>yuansheng_houtai_action.chanpinTest@25618e91</td></tr>
+<tr>
+<td title='yuansheng_houtai_action.chanpinTest.testbuju()'><b>testbuju</b><br>Test class: yuansheng_houtai_action.chanpinTest</td>
+<td></td>
+<td>8</td>
+<td>yuansheng_houtai_action.chanpinTest@25618e91</td></tr>
+<tr>
+<td title='yuansheng_houtai_action.chanpinTest.testbuju_s()'><b>testbuju_s</b><br>Test class: yuansheng_houtai_action.chanpinTest</td>
+<td></td>
+<td>14</td>
+<td>yuansheng_houtai_action.chanpinTest@25618e91</td></tr>
+<tr>
+<td title='yuansheng_houtai_action.dingdan_shangpinTest.testdaif()'><b>testdaif</b><br>Test class: yuansheng_houtai_action.dingdan_shangpinTest</td>
+<td></td>
+<td>7</td>
+<td>yuansheng_houtai_action.dingdan_shangpinTest@71f2a7d5</td></tr>
+<tr>
+<td title='yuansheng_houtai_action.dingdan_shangpinTest.testdaish()'><b>testdaish</b><br>Test class: yuansheng_houtai_action.dingdan_shangpinTest</td>
+<td></td>
+<td>7</td>
+<td>yuansheng_houtai_action.dingdan_shangpinTest@71f2a7d5</td></tr>
+<tr>
+<td title='kuangjia_houtai_test.shezhi_zhandianTest.testdianji()'><b>testdianji</b><br>Test class: kuangjia_houtai_test.shezhi_zhandianTest</td>
+<td></td>
+<td>15</td>
+<td>kuangjia_houtai_test.shezhi_zhandianTest@3ecf72fd</td></tr>
+<tr>
+<td title='kuangjia_qiantai_test.liuyanTest.testdianji()'><b>testdianji</b><br>Test class: kuangjia_qiantai_test.liuyanTest</td>
+<td></td>
+<td>10</td>
+<td>kuangjia_qiantai_test.liuyanTest@21a06946</td></tr>
+<tr>
+<td title='kuangjia_qiantai_test.luntanTest.testdianji()'><b>testdianji</b><br>Test class: kuangjia_qiantai_test.luntanTest</td>
+<td></td>
+<td>9</td>
+<td>kuangjia_qiantai_test.luntanTest@77f03bb1</td></tr>
+<tr>
+<td title='kuangjia_qiantai_test.luntanTest.testdianji_ll()'><b>testdianji_ll</b><br>Test class: kuangjia_qiantai_test.luntanTest</td>
+<td></td>
+<td>24</td>
+<td>kuangjia_qiantai_test.luntanTest@77f03bb1</td></tr>
+<tr>
+<td title='yuansheng_houtai_action.chanpinTest.testfanhui()'><b>testfanhui</b><br>Test class: yuansheng_houtai_action.chanpinTest</td>
+<td></td>
+<td>12</td>
+<td>yuansheng_houtai_action.chanpinTest@25618e91</td></tr>
+<tr>
+<td title='yuansheng_houtai_action.chanpinTest.testfujian()'><b>testfujian</b><br>Test class: yuansheng_houtai_action.chanpinTest</td>
+<td></td>
+<td>8</td>
+<td>yuansheng_houtai_action.chanpinTest@25618e91</td></tr>
+<tr>
+<td title='yuansheng_houtai_action.dingdan_shangpinTest.testgaij()'><b>testgaij</b><br>Test class: yuansheng_houtai_action.dingdan_shangpinTest</td>
+<td></td>
+<td>10</td>
+<td>yuansheng_houtai_action.dingdan_shangpinTest@71f2a7d5</td></tr>
+<tr>
+<td title='yuansheng_houtai_action.dingdan_shangpinTest.testgaijs()'><b>testgaijs</b><br>Test class: yuansheng_houtai_action.dingdan_shangpinTest</td>
+<td></td>
+<td>13</td>
+<td>yuansheng_houtai_action.dingdan_shangpinTest@71f2a7d5</td></tr>
+<tr>
+<td title='yuansheng_houtai_action.chanpinTest.testgdshanc()'><b>testgdshanc</b><br>Test class: yuansheng_houtai_action.chanpinTest</td>
+<td></td>
+<td>9</td>
+<td>yuansheng_houtai_action.chanpinTest@25618e91</td></tr>
+<tr>
+<td title='yuansheng_houtai_action.chanpinTest.testgengduo()'><b>testgengduo</b><br>Test class: yuansheng_houtai_action.chanpinTest</td>
+<td></td>
+<td>6</td>
+<td>yuansheng_houtai_action.chanpinTest@25618e91</td></tr>
+<tr>
+<td title='kuangjia_qiantai_test.luntanTest.testhuitie_bj()'><b>testhuitie_bj</b><br>Test class: kuangjia_qiantai_test.luntanTest</td>
+<td></td>
+<td>29</td>
+<td>kuangjia_qiantai_test.luntanTest@77f03bb1</td></tr>
+<tr>
+<td title='kuangjia_qiantai_test.luntanTest.testhuitie_bt()'><b>testhuitie_bt</b><br>Test class: kuangjia_qiantai_test.luntanTest</td>
+<td></td>
+<td>26</td>
+<td>kuangjia_qiantai_test.luntanTest@77f03bb1</td></tr>
+<tr>
+<td title='kuangjia_qiantai_test.luntanTest.testhuitie_tz()'><b>testhuitie_tz</b><br>Test class: kuangjia_qiantai_test.luntanTest</td>
+<td></td>
+<td>26</td>
+<td>kuangjia_qiantai_test.luntanTest@77f03bb1</td></tr>
+<tr>
+<td title='kuangjia_qiantai_test.luntanTest.testhuitie_zdtl()'><b>testhuitie_zdtl</b><br>Test class: kuangjia_qiantai_test.luntanTest</td>
+<td></td>
+<td>33</td>
+<td>kuangjia_qiantai_test.luntanTest@77f03bb1</td></tr>
+<tr>
+<td title='kuangjia_qiantai_test.liuyanTest.testjieshou()'><b>testjieshou</b><br>Test class: kuangjia_qiantai_test.liuyanTest</td>
+<td></td>
+<td>13</td>
+<td>kuangjia_qiantai_test.liuyanTest@21a06946</td></tr>
+<tr>
+<td title='kuangjia_qiantai_test.liuyanTest.testkejian()'><b>testkejian</b><br>Test class: kuangjia_qiantai_test.liuyanTest</td>
+<td></td>
+<td>13</td>
+<td>kuangjia_qiantai_test.liuyanTest@21a06946</td></tr>
+<tr>
+<td title='kuangjia_qiantai_test.liuyanTest.testneirong()'><b>testneirong</b><br>Test class: kuangjia_qiantai_test.liuyanTest</td>
+<td></td>
+<td>18</td>
+<td>kuangjia_qiantai_test.liuyanTest@21a06946</td></tr>
+<tr>
+<td title='yuansheng_houtai_action.dingdan_shangpinTest.testshanc()'><b>testshanc</b><br>Test class: yuansheng_houtai_action.dingdan_shangpinTest</td>
+<td></td>
+<td>11</td>
+<td>yuansheng_houtai_action.dingdan_shangpinTest@71f2a7d5</td></tr>
+<tr>
+<td title='kuangjia_qiantai_test.liuyanTest.testshuru()'><b>testshuru</b><br>Test class: kuangjia_qiantai_test.liuyanTest</td>
+<td></td>
+<td>16</td>
+<td>kuangjia_qiantai_test.liuyanTest@21a06946</td></tr>
+<tr>
+<td title='yuansheng_houtai_action.chanpinTest.testsousuo()'><b>testsousuo</b><br>Test class: yuansheng_houtai_action.chanpinTest</td>
+<td></td>
+<td>9</td>
+<td>yuansheng_houtai_action.chanpinTest@25618e91</td></tr>
+<tr>
+<td title='yuansheng_houtai_action.chanpinTest.testtupian()'><b>testtupian</b><br>Test class: yuansheng_houtai_action.chanpinTest</td>
+<td></td>
+<td>9</td>
+<td>yuansheng_houtai_action.chanpinTest@25618e91</td></tr>
+<tr>
+<td title='yuansheng_houtai_action.dingdan_shangpinTest.testxiangq()'><b>testxiangq</b><br>Test class: yuansheng_houtai_action.dingdan_shangpinTest</td>
+<td></td>
+<td>10</td>
+<td>yuansheng_houtai_action.dingdan_shangpinTest@71f2a7d5</td></tr>
+<tr>
+<td title='kuangjia_houtai_test.shezhi_zhandianTest.testxiugaishuru()'><b>testxiugaishuru</b><br>Test class: kuangjia_houtai_test.shezhi_zhandianTest</td>
+<td></td>
+<td>14</td>
+<td>kuangjia_houtai_test.shezhi_zhandianTest@3ecf72fd</td></tr>
+<tr>
+<td title='yuansheng_houtai_action.shezhi_shezhiTest.time()'><b>time</b><br>Test class: yuansheng_houtai_action.shezhi_shezhiTest</td>
+<td></td>
+<td>14</td>
+<td>yuansheng_houtai_action.shezhi_shezhiTest@5474c6c</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='kuangjia_qiantai_test.luntanTest.testdianji_ht_sjqd()'><b>testdianji_ht_sjqd</b><br>Test class: kuangjia_qiantai_test.luntanTest</td>
+<td><div><pre>java.lang.RuntimeException: Can&apos;t invoke method public java.lang.Object[][] dataprovider.NSDataProvider2.getData() on this instance of class kuangjia_qiantai_test.luntanTest due to class mismatch
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace976827477", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace976827477'><pre>java.lang.RuntimeException: Can&apos;t invoke method public java.lang.Object[][] dataprovider.NSDataProvider2.getData() on this instance of class kuangjia_qiantai_test.luntanTest due to class mismatch
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:136)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>kuangjia_qiantai_test.luntanTest@77f03bb1</td></tr>
+<tr>
+<td title='kuangjia_qiantai_test.bianji_sjqdTest.testhuitie_bt()'><b>testhuitie_bt</b><br>Test class: kuangjia_qiantai_test.bianji_sjqdTest</td>
+<td><div><pre>java.lang.RuntimeException: Can&apos;t invoke method public java.lang.Object[][] dataprovider.NSDataProvider3.getData() on this instance of class kuangjia_qiantai_test.bianji_sjqdTest due to class mismatch
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2072313080", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2072313080'><pre>java.lang.RuntimeException: Can&apos;t invoke method public java.lang.Object[][] dataprovider.NSDataProvider3.getData() on this instance of class kuangjia_qiantai_test.bianji_sjqdTest due to class mismatch
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:136)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>kuangjia_qiantai_test.bianji_sjqdTest@483bf400</td></tr>
+<tr>
+<td title='kuangjia_qiantai_test.liuyanTest.testliuyan_sjqd()'><b>testliuyan_sjqd</b><br>Test class: kuangjia_qiantai_test.liuyanTest</td>
+<td><div><pre>java.lang.RuntimeException: Can&apos;t invoke method public java.lang.Object[][] dataprovider.NSDataProvider4.getData() on this instance of class kuangjia_qiantai_test.liuyanTest due to class mismatch
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1521238608", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1521238608'><pre>java.lang.RuntimeException: Can&apos;t invoke method public java.lang.Object[][] dataprovider.NSDataProvider4.getData() on this instance of class kuangjia_qiantai_test.liuyanTest due to class mismatch
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:136)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>kuangjia_qiantai_test.liuyanTest@21a06946</td></tr>
+<tr>
+<td title='yuansheng_houtai_action.chanpin_tianjiaTest.tianjia()'><b>tianjia</b><br>Test class: yuansheng_houtai_action.chanpin_tianjiaTest</td>
+<td><div><pre>java.lang.RuntimeException: Can&apos;t invoke method public java.lang.Object[][] dataprovider.NSDataProvider.getData() on this instance of class yuansheng_houtai_action.chanpin_tianjiaTest due to class mismatch
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace201274566", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace201274566'><pre>java.lang.RuntimeException: Can&apos;t invoke method public java.lang.Object[][] dataprovider.NSDataProvider.getData() on this instance of class yuansheng_houtai_action.chanpin_tianjiaTest due to class mismatch
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:136)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>yuansheng_houtai_action.chanpin_tianjiaTest@326de728</td></tr>
+<tr>
+<td title='yuansheng_houtai_action.tuiguang_guanjianciTest.tianjia()'><b>tianjia</b><br>Test class: yuansheng_houtai_action.tuiguang_guanjianciTest</td>
+<td><div><pre>java.lang.RuntimeException: Can&apos;t invoke method public java.lang.Object[][] dataprovider.NSDataProvider1.getData() on this instance of class yuansheng_houtai_action.tuiguang_guanjianciTest due to class mismatch
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace908384914", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace908384914'><pre>java.lang.RuntimeException: Can&apos;t invoke method public java.lang.Object[][] dataprovider.NSDataProvider1.getData() on this instance of class yuansheng_houtai_action.tuiguang_guanjianciTest due to class mismatch
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:136)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>yuansheng_houtai_action.tuiguang_guanjianciTest@4b6995df</td></tr>
+</table><p>
+</body>
+</html>
