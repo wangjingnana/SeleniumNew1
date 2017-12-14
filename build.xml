@@ -2,11 +2,8 @@
 <project basedir="." default="test" name="automation test"> <!--默认使用test任务-->
 			
 	<property name="base.dir" value="C:\xuexi\dasanshang\Selenium\eclipselizi\chanzhi" /><!--项目根目录-->
-
 	<property name="testng.output.dir" value="./test-output"/><!--配置结果输出地址-->
-
 	<property name="lib.dir" value="${base.dir}/lib"/><!--设置其他jar包目录-->
-
 	<property name="testng.file" value="${base.dir}/testng.xml"/> <!--调用的testng用例执行xml文件，这里是文件名-->
 	<property name="testdir" location="test" /> <!--设置编译的2进制文件目录-->
 
